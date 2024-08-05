@@ -1,0 +1,55 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #ffd700;
+	color: #333;
+
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.header .bawahjudul {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.header li {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.header ul {
+	margin: 0;
+	padding: 0;
+}
+
+.header a {
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightblue;
+	color: white;
+}
+
+.hero {
+	height: 1050px;
+	background-image: url(img/mood.jpg);
+	background-size: cover;
+	background-position: 0 - 100px;
+}
+
